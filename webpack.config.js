@@ -15,7 +15,19 @@ module.exports = {
                 use: {
                     loader: 'babel-loader'
                 }
-            }
+            },
+            {
+                test: /\.scss$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    'sass-loader',
+                ]
+            },
+            {
+                test: /\.(png|jpg|gif|svg|css|eot|ttf)$/,
+                loader: 'url-loader',
+            },
         ]
     },
     plugins: [
