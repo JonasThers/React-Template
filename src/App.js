@@ -1,11 +1,12 @@
 import React from 'react';
 import "./styles/styles.scss"
+import { Container } from '@material-ui/core';
 
 const App = () => {
     return (
-        <div>
-            Hej verden
-        </div>
+        <Container maxWidth="sm">
+            Hello world
+        </Container>
     )
 }
 

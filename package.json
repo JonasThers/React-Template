@@ -10,10 +10,11 @@
   "author": "Jonas Thers",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
+    "@material-ui/core": "^4.11.3",
     "css-loader": "^5.0.1",
     "node-sass": "^5.0.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "sass-loader": "^10.1.0",
     "style-loader": "^2.0.0"
   },
